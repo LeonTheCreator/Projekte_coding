@@ -1,0 +1,6 @@
+#Schreibe ein Python-Script ohne die Nutzung von KI, welches:
+
+#Einen Host und Port-Range als Input nimmt (haben wir bereits gemacht)
+#Offene Ports identifiziert (recherchieren wie das geht)
+#Service-Banner grabbing durchführt (recherchieren was das ist)
+#Ergebnisse ausgibt (das könnt ihr bereits)
