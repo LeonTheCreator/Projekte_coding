@@ -25,8 +25,15 @@ for port in range(portnrAnfang, portnrEnde + 1):
     if ausgabe_connection == 0:
         print(f"The Socket has succesfully connected on port {port}")
 
+
+        banner = s.recv(1024)
+        print(banner)
+        s.close()
+
     else:
         print(f"The socket did NOT connect on port {port}")
 #f vor dem String lässt mich variable im Text ausgeben
 
-s.close
+s.close()
+
+
